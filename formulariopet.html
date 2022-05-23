@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario pet</title>
+
+    <style>
+        body{
+
+            margin: 0%;
+            padding: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #2ea662;
+height:100vh;
+        }
+
+
+        main{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:white;
+           height:90vh;
+           
+            margin:5% 5%;
+            border-radius:10px;
+            
+}
+            
+        
+
+   
+           
+
+
+
+
+
+.campo{
+
+    width:280px;
+    height:35px;
+    margin-bottom:5%;
+
+}
+
+     h2{
+     text-align: center;
+
+}
+
+form{
+
+background-color:white;
+height:100%;
+margin-top:30px;
+height:90%;
+}
+
+@media(max-height:400px){
+
+main{
+
+height:500px;
+
+}
+
+
+}
+
+div{
+
+
+}
+
+    </style>
+
+</head>
+
+<body>
+
+<main class="form" >
+   
+ <form action="">
+ <h2>Cadastrar Pet</h2>
+    <div> <input class="campo" type="text"name="nomedopet"id="namepet"placeholder="Nome do Pet"> 
+  <div class="inline" >
+    </div >
+    <div >
+     <input class="campo" type="number" name="idadedopet" id="idadepet" placeholder="Idade">
+    </div>
+
+    <div>
+     <input class="campo" type="email" name="email"id="email" placeholder="E-mail do Responsável">
+    </div class="">
+  </div>
+  
+    <div class="box2">
+      <p>Espécie</p>
+        <input type="radio" name="canino" id="canino">
+        <label for="canino">Canino</label>
+        <input type="radio" name="felino" id="felino">
+        <label for="felino">Felino</label>
+  
+    <p>Porte</p>
+    
+        <input type="radio" name="pequeno" id="pequeno">
+        <label for="pequeno">Pequeno</label>
+
+        <input type="radio" name="medio" id="medio">
+        <label for="medio">Médio</label>
+
+        <input type="radio" name="grande" id="grande">
+        <label for="grande">Grande</label>
+       
+    </div>
+
+    <div>
+        <button type="submit">Cadastrar</button>
+    </div>
+ </form>
+</main>
+
+</body>
+</html>
